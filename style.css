@@ -27,5 +27,17 @@ button{
 }
 
 
+.outside-button:hover{
+    animation: rotate 1.5s linear infinite;
+    background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0);
+}
 
+@keyframes rotate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
 
